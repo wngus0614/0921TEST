@@ -49,7 +49,7 @@ public class BoardControllerTests {
         dto.setNo(10L);
         dto.setTitle("TITLE");
         dto.setContents("CONTENTS");
-        dto.setWriter("USER11@NAVER.COM");
+        dto.setWriter("User01@NAVER.COM");
 
         ObjectMapper objectMapper = new ObjectMapper();
         String params = objectMapper.writeValueAsString(dto);
